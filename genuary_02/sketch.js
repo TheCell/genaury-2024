@@ -32,7 +32,7 @@ const options = {
     loop();
   },
   save: function () {
-    saveCanvas(`${new Date().getFullYear()}_Genuary01_seed-${seed}_date-${Date.now()}`, 'png');
+    saveCanvas(`${new Date().getFullYear()}_Genuary02_seed-${seed}_date-${Date.now()}`, 'png');
   },
   loadImage: function() {
     document.getElementById('fileselector').click();
